@@ -30,24 +30,21 @@ Step 3. Install packages
 
 Note: Make sure u did not get any error while installing npm packages, if found message npm ERR! means some packages did not installed, so reinstall this again by typing “npm install”. Err will occur if network failure in most of the cases.
 
-Step 4.  Everything is setup now time to create you app in angular2 
-	 Create application folder 
+Step 4. Everything is setup now time to create you app in angular2 
+	 	Create application folder 
 	 
 	$ mkdir app
 
-Step 5. Create the file app/app.module.ts see the file for code.
-// This is the entry point to your application
+Step 5. Create the file app/app.module.ts see the file for code. This is the entry point to your application
 
 Step 6. Create a component and add it to application.
 		Create file app/app.component.ts with the code below
 
 Step 7. Edit the file app/app.module.ts to import your new AppComponent and add it in the declarations and bootstrap fields in the NgModule decorator
 
-Step 8.  Run project.
- Create  file “app/main.ts” , see the code in file
-
+Step 8.Run project.
+	Create  file “app/main.ts” , see the code in file
 “This code initializes the platform that your application runs in, then uses the platform to bootstrap your AppModule.”
-
 
 Step 9. Define the page that host your app. create an index.js in root of your project.
 
@@ -55,4 +52,4 @@ Step 10. Create a style.css in root of your project.
 	
 Step 11. Run your first demo app. 
 	
- $ npm start
+ 	$ npm start
