@@ -54,4 +54,5 @@ Step 9. Define the page that host your app. create an index.js in root of your p
 Step 10. Create a style.css in root of your project.
 	
 Step 11. Run your first demo app. 
-	$ npm start
+	
+ $ npm start
